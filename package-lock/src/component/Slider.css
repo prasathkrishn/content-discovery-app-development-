@@ -1,0 +1,97 @@
+/* Slider.css */
+.slider-container {
+    width: 70%;
+    margin: auto;
+   padding-top:15px ;
+    position: relative;
+	margin-right: 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 600px;
+
+}
+
+.slick-next, .slick-prev {
+    z-index: 1; 
+}
+
+.slick-next {
+    right: 20px;
+}
+
+.slick-prev {
+    left: 20px;
+}
+
+.slick-next:before, .slick-prev:before {
+    display: none; 
+}
+
+.slide-item {
+    position: relative;
+}
+
+.slide img {
+    max-height: 600px;
+    object-fit: cover; 
+}
+.slide-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(255, 251, 251);
+}
+
+.custom-dots {
+    bottom: 20px; 
+}
+
+.custom-dots li {
+    margin: 0; 
+}
+
+.custom-dots li button:before {
+    font-size: 12px;
+    color: white; 
+}
+
+.custom-dots li.slick-active button:before {
+    color: yellow; 
+}
+
+.hh2{
+	position: absolute;
+    z-index: 30;
+	bottom: 300px;
+	width: 650px;
+    /* left: 1000px; */
+    right: 650px;
+    top: 200px;
+	cursor: pointer;
+    font-weight: bold;
+    color: beige;
+	margin-bottom: 150px;
+    margin-right: 70px;
+    font-size: 20px;
+}
+
+.btn{
+    position: relative;
+    width: 200px;
+    background-color: rgb(247, 5, 5);
+    top: 50px;
+    
+    color: bisque;
+    font-size: 25px;
+}
+
+.slides{
+    box-shadow: -3px -4px 11px rgba(219, 215, 215, 0.247);
+    
+   
+}
+/* h2:hover{
+	color: blueviolet;
+	font-size: 40px;
+} */

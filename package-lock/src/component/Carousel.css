@@ -1,0 +1,60 @@
+
+
+.tubi-slider {
+  width: 100%;
+  padding: 20px 0;
+  position: relative;
+  background-color: #0b0019;
+}
+
+.slider-item {
+  padding: 0 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slider-content {
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+  background-color: #222222;
+  color: #fff;
+}
+
+.slider-content img {
+  width: 100%;
+  height: 250px; /* Set a fixed height for all images */
+  object-fit: cover; /* Ensures the image covers the area without distorting */
+  border-radius: 10px;
+}
+
+.slider-content h3 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.slider-item:hover .slider-content {
+  transform: scale(1.1);
+}
+
+.slick-prev, .slick-next {
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.slick-prev {
+  left: 10px;
+  z-index: 2;
+}
+
+.slick-next {
+  right: 10px;
+  z-index: 2;
+}

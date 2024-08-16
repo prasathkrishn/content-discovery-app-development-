@@ -1,0 +1,38 @@
+.body{
+    background-color:rgb(14, 13, 13);
+}
+
+  /* Optional: Additional styling for hover effects */
+
+.shad{
+    
+      box-shadow: 10 43px 81px rgba(108, 6, 6, 0.3);
+  }
+  .cards2 {
+      text-decoration: none;
+      background-color: black;
+      border-radius: 16px;
+    overflow: hidden;
+  }
+  
+  .cards2 .MuiCardMedia-root {
+      border-radius: 18px;
+    }
+    .shad .MuiCardContent-root {
+        padding-top: 15px;
+        border-radius: 10px;
+        box-shadow: 2px 6px 10px rgba(29, 21, 21, 0.3);
+  }
+
+.movie{
+    display: flex;
+}
+Grid{
+    border-radius: 100px;
+    background-color: aqua;
+}
+
+CardMedia{
+    border-radius: 10px;
+    margin-left: 20px;
+}

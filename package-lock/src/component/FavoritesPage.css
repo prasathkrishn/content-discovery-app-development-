@@ -1,0 +1,41 @@
+.favorites-page {
+  padding: 20px;
+  background-color: #333333; /* Dark grey background color */
+}
+
+.favorites-paper {
+  padding: 20px;
+  background-color: #000000; /* Slightly lighter grey for paper */
+  color: #fff; /* White text color for readability */
+}
+
+.favorites-title {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ff5722; /* You can change this color for a better contrast */
+}
+
+.favorites-stack {
+  flex-wrap: wrap;
+}
+
+.favorites-card {
+  width: 300px;
+  margin-bottom: 20px;
+  background-color: #555555; /* Grey for cards */
+}
+
+.favorites-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscribe-button {
+  display: block;
+  margin: 20px auto;
+}
+
+.no-favorites {
+  text-align: center;
+  color: #ff5722; /* Change this color to fit the dark theme */
+}
